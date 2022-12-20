@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+/* HEADER ############################################################################# */
+header p {
+  margin: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: relative;
+  height: 8vh;
+  background-color: antiquewhite;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px black solid;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo .red-square {
+  width: 60px;
+  height: 40px;
+  margin-right: 5px;
+  background-color: red;
+  border-radius: 10%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.red-square span {
+  font-size: 40px;
+}
+
+header input {
+  text-align: left;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon {
+    margin: 10px;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+/* NAV ################################################################################# */
+nav {
+  position: absolute;
+  height: 92vh;
+  width: 10%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 20px;
+  border-right: 1px black solid;
+  align-items: center;
+}
+
+nav a {
+  width: 80%;
+  border: 1px black solid;
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:last-child {
+  border: none;
+}
+
+nav span {
+  position: absolute;
+  font-size: 40px !important;
+  bottom: 50px;
+  margin: 0 auto;
+  transform: translate(-50%);
+}
+/* VIDEOS ############################################################################# */
+.title {
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.video-container {
+  margin: 10px 0 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.video-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border: 1px black solid;
+}
+
+.video-container section {
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 85%;
+  border-bottom: 1px black solid;
+}
+
+section span {
+    font-size: 150px !important;
+}
+
+.video-container .video div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  border: none;
+  margin: 0;
+}
+
+.video-container p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.channel-name {
+  display: inline-block;
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+
+.set {
+  margin-bottom: 100px;
+  margin-left: 220px;
+  text-align: left;
+}
+
+.set:last-child {
+  margin-bottom: 0px !important;
+}
+
+.unsub {
+  font-size: 17px;
+  background-color: red;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.create-list {
+  margin-top: 20px;
+  background-color: green;
+}
+
+.create-container {
+  width: 90vw;
+  height: 92vh;
+  margin-left: 190px;
+}
+
+.create-container button {
+  margin: 20px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.create-container h2 {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.create-container .video-container {
+  margin: 10px 0 0 0;
+}
+
+.edit-icon {
+  border: 1px black solid;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 40px !important;
+}
+
+.page-container {
+  width: 90vw;
+  height: 92vh;
+  margin-left: 190px;
+}
+
+.page-container .video {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+
+.page-container .channel {
+  display: flex;
+  align-items: center;
+}
+.page-container h2 {
+  text-align: left;
+  margin: 5px;
+}
+
+.page-container h3 {
+  text-align: left;
+  margin: 10px;
+}
+
+.page-container p {
+  margin: 0 10px;
+  text-align: left;
+  align-self: left;
+}
+
+.page-container img {
+  width: 100%;
+}
+
+.profile-container {
+  width: 90vw;
+  height: 92vh;
+  margin-left: 190px;
+  position: relative;
+}
+
+.profile-container .profile-square {
+  width: 200px;
+  height: 200px;
+  border: 1px black solid;
+  margin: 50px;
+}
+
+.profile-buttons {
+  /* width: 500px; */
+  height: 200px;
+  /* border: 1px black solid; */
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.profile-container button {
+  text-align: left !important;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.profile-container h3 {
+  text-align: left;
+  margin: 0px 0 50px 50px;
+}
+
+header p {
+  position: absolute;
+  bottom: 0;
+  left: 108px;
+}
